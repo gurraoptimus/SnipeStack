@@ -11,7 +11,7 @@
     <meta name="theme-color" content="#333">
     <link rel="icon" href="https://raw.githubusercontent.com/gurraoptimus/SnipeStack/gh-page/assets/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>SnipStack</title>
+    <title>Welcome to SnipStack</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -81,7 +81,7 @@
         <a href=\"donate.php\">Donate</a> |
         <a href=\"login.php\">Login</a> |
         <a href=\"register.php\">Register</a> |
-        link to <a href=\"https://www.gurraoptimus.se\" target=\"_blank\">External Site</a>
+        link to <a href=\"https://www.gurraoptimus.se\" target=\"_blank\">Gurraoptimus Developmet</a>
     </nav>";
     echo "<p>This is a simple PHP-powered web page.</p>";
 
@@ -108,22 +108,23 @@
     $user = "Visitor";
     echo "<p>Hello, $user!</p>";
 
-    // Add some fun: display a random joke
-    // Fetch a random programming joke from an external API
+    // Display a real live funny joke about developers
+    // Fetch a random programming joke from JokeAPI (can be single or two-part)
     $joke = "Why do programmers prefer dark mode? Because light attracts bugs!"; // fallback
     $emoji = "😂"; // fallback emoji
 
-    // Try to get a real joke from JokeAPI
-    $jokeApiUrl = "https://v2.jokeapi.dev/joke/Programming?type=single";
+    $jokeApiUrl = "https://v2.jokeapi.dev/joke/Programming?type=any";
     $response = @file_get_contents($jokeApiUrl);
     if ($response !== false) {
         $data = json_decode($response, true);
-        if (isset($data['joke'])) {
+        if (isset($data['type']) && $data['type'] === 'single' && isset($data['joke'])) {
             $joke = htmlspecialchars($data['joke']);
+        } elseif (isset($data['type']) && $data['type'] === 'twopart' && isset($data['setup'], $data['delivery'])) {
+            $joke = htmlspecialchars($data['setup']) . "<br><strong>" . htmlspecialchars($data['delivery']) . "</strong>";
         }
     }
 
-    // Fun programmer-related emojis
+    // Fun developer-related emojis
     $emojis = ["😂", "🤓", "💻", "🧑‍💻", "👨‍💻", "👩‍💻", "🖥️", "🐛", "🚀", "🤖", "😅"];
     $emoji = $emojis[array_rand($emojis)];
 
