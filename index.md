@@ -14,7 +14,7 @@ PHP SnipStack is a lightweight, modular code snippet manager designed for PHP de
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/SnipStack.git
+    git clone https://github.com/gurraoptimus/SnipeStack.git
     ```
 2. **Set up your environment:**
     - Requires PHP 7.4+ and a web server (e.g., XAMPP, Apache)
