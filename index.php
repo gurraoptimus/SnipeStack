@@ -11,7 +11,7 @@
     <meta name="theme-color" content="#333">
     <link rel="icon" href="https://raw.githubusercontent.com/gurraoptimus/SnipeStack/gh-page/assets/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Welcome to SnipStack</title>
+    <title>SnipStack</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -81,7 +81,7 @@
         <a href=\"donate.php\">Donate</a> |
         <a href=\"login.php\">Login</a> |
         <a href=\"register.php\">Register</a> |
-        link to <a href=\"https://www.gurraoptimus.se\" target=\"_blank\">Gurraoptimus Developmet</a>
+        link to <a href=\"https://www.gurraoptimus.se\" target=\"_blank\">Gurraoptimus Development</a>
     </nav>";
     echo "<p>This is a simple PHP-powered web page.</p>";
 
