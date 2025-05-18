@@ -1,4 +1,29 @@
-# [SnipeStack](index.md)
+SnipeStack
+==========
 
-This project contains a simple PHP-powered web page.  
-Refer to the source code and documentation for setup and usage instructions.
+SnipeStack is a minimalist PHP website template built for simple portfolios, landing pages, or small projects.
+
+Features:
+- Lightweight and fast-loading
+- Built with PHP for basic server-side routing
+- Includes sample pages: Home, About, and Contact
+- Easily customizable for personal or professional use
+
+Folder Structure:
+- index.php          -> Homepage
+- about.php          -> About page
+- contact.php        -> Contact form page
+
+Usage:
+1. Clone or download the repository.
+2. Deploy to a PHP-enabled web server.
+3. Modify content in the PHP files to suit your needs.
+
+Live Demo:
+https://gurraoptimus.github.io/SnipeStack/
+
+License:
+Apache 2.0
+
+Author:
+@gurraoptimus
