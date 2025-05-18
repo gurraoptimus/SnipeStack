@@ -3,7 +3,7 @@
     <img src="https://raw.githubusercontent.com/gurraoptimus/SnipeStack/gh-page/assets/icon.ico" alt="SnipeStack Logo" width="120" />
 </p>
 
-Welcome to **SnipStack** — a modern, lightweight PHP-powered toolkit that serves two purposes:
+Welcome to **SnipeStack** — a modern, lightweight PHP-powered toolkit that serves two purposes:
 - A **clean starter template** for building small websites or portfolios.
 - A **code snippet manager** for organizing and retrieving reusable PHP code.
 
@@ -48,7 +48,7 @@ SnipeStack/
 
 2. **Set Up Your Environment**
     - Requires **PHP 7.4+**
-    - Use a local server like XAMPP or deploy to a PHP-enabled web host
+    - Use a local server like [`XAMPP`](https://www.apachefriends.org/) or deploy to a PHP-enabled web host
 
 3. **Run the Project**
     - Visit: [http://localhost/SnipeStack](http://localhost/SnipeStack)
