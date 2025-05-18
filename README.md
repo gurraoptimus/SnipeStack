@@ -1,4 +1,4 @@
-<h1 align="center">SnipeStack </h1>
+<h1 align="left">SnipeStack </h1>
 <img align="center" alt="SnipeStack" src="https://raw.githubusercontent.com/gurraoptimus/SnipeStack/gh-page/assets/SnipeStack.ico" alt="SnipeStack Logo" width="120" />
 
 ==========
