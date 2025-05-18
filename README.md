@@ -22,7 +22,7 @@ Usage:
 3. Modify content in the PHP files to suit your needs.
 
 Live Demo:
-https://gurraoptimus.github.io/SnipeStack/
+[SnipeStack](https://gurraoptimus.github.io/SnipeStack/)
 
 License:
 Apache 2.0
