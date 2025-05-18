@@ -1,5 +1,6 @@
 <h1 align="center">SnipeStack </h1>
 <img align="center" alt="SnipeStack" src="https://raw.githubusercontent.com/gurraoptimus/SnipeStack/gh-page/assets/SnipeStack.ico" alt="SnipeStack Logo" width="120" />
+
 ==========
 
 SnipeStack is a minimalist PHP website template built for simple portfolios, landing pages, or small projects.
