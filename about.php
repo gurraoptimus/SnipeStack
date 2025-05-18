@@ -7,8 +7,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Us - My Website</title>
+    <title>About Us - SnipeStack</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about us and our mission.">
+    <meta name="keywords" content="About, Company, Mission, Team">
+    <meta name="author" content="Gurraoptimus">
+    <meta name="copyright" content="Gurraoptimus Development">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#333">
+    <link rel="icon" href="https://raw.githubusercontent.com/gurraoptimus/SnipeStack/gh-page/assets/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body { 
             font-family: 'Segoe UI', Arial, sans-serif; 
@@ -47,11 +55,15 @@
     </style>
 </head>
 <body> 
-   
+
     <div class="container">
-        <h1>About Us</h1>
-        <p>Welcome to our website! We are dedicated to providing quality content and services to our users.</p>
-        <p>Our mission is to deliver valuable information and a great user experience. Thank you for visiting our About page.</p>
+<div style="text-align: center; margin-top: 40px;">
+    <img src="https://raw.githubusercontent.com/gurraoptimus/SnipeStack/gh-page/assets/SnipeStack.png" alt="SnipeStack Logo" style="max-width: 180px; height: auto; margin-bottom: 24px;">
+    </div>
+        <h1 style="text-align: left; color: #2a4365;">About Us</h1>
+        <p style="text-align: left;">Welcome to our website! We are dedicated to providing quality content and services to our users.</p>
+        <p style="text-align: left; font-size: 1.2rem; color: #4a5568;">Your go-to place for all things fun and informative!</p>
+        <p style="text-align: bottom;">Our mission is to deliver valuable information and a great user experience. Thank you for visiting our About page.</p>
      <a href="javascript:history.back()" style="display:inline-block;margin:24px 0 0 32px;color:#2a4365;text-decoration:none;font-weight:500;font-size:1rem;">
         &larr; Back
     </a>

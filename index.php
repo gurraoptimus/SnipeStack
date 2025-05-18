@@ -9,7 +9,7 @@
     <meta name="copyright" content="gurraoptimus development">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#333">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://raw.githubusercontent.com/gurraoptimus/SnipeStack/gh-page/assets/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>SnipStack</title>
     <style>
@@ -70,6 +70,8 @@
 </head>
 <body>
     <?php
+    // Basic PHP Website Example
+    // This is a simple PHP script that generates a web page with some fun elements.
     echo "<h1>Welcome to My PHP Website</h1>";
     echo "<nav>
         <a href=\"\">Home</a> |
