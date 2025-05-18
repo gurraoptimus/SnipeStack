@@ -71,7 +71,7 @@
         <a href=\"donate.php\">Donate</a> |
         <a href=\"login.php\">Login</a> |
         <a href=\"register.php\">Register</a> |
-        link to <a href=\"https://www.example.com\" target=\"_blank\">External Site</a>
+        link to <a href=\"https://www.gurraoptimus.se\" target=\"_blank\">External Site</a>
     </nav>";
     echo "<p>This is a simple PHP-powered web page.</p>";
 
