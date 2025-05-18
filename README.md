@@ -1,4 +1,4 @@
-[SnipeStack](https://github.com/SnipeStack/tree/gh-page)
+[SnipeStack](https://github.com/gurraoptimus/SnipeStack/tree/gh-page)
 ==========
 
 SnipeStack is a minimalist PHP website template built for simple portfolios, landing pages, or small projects.
