@@ -57,7 +57,7 @@
     </a>
     </div>
     <footer style="text-align: center; margin: 60px auto 0 auto; color: #666; max-width: 700px; background: #f8fafc; padding: 24px 16px; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.04); font-size: 1rem;">
-        <p style="margin-bottom: 10px;">&copy; <?php echo date("Y"); ?> My PHP Website. All rights reserved.</p>
+        <p style="margin-bottom: 10px;">&copy; <?php echo date("Y"); ?> Gurraoptimus Development. All rights reserved.</p>
         <p style="margin-bottom: 10px;">
             Follow us on 
             <a href="https://twitter.com" target="_blank" style="color: #3182ce; text-decoration: none; margin: 0 6px;">Twitter</a> | 

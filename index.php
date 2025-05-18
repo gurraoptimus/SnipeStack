@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple PHP website with a fun twist.">
+    <meta name="keywords" content="PHP, web development, fun, jokes, emojis">
+    <meta name="author" content="gurraoptimus">
+    <meta name="copyright" content="gurraoptimus development">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#333">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>SnipStack</title>
     <style>
         body {
@@ -100,7 +108,7 @@
     ?>
 
     <footer style="text-align: center; margin-top: 40px; color: #666; background: #222; padding: 30px 0 20px 0;">
-        <p style="color: #bbb; margin-bottom: 18px;">&copy; <?php echo date("Y"); ?> My PHP Website. All rights reserved.</p>
+        <p style="color: #bbb; margin-bottom: 18px;">&copy; <?php echo date("Y"); ?> Gurraoptimus Development. All rights reserved.</p>
         <div style="margin-bottom: 10px;">
             <p style="margin-bottom: 10px;">Disclaimer: This is a demo website. All content is fictional.</p>
             <p style="margin-bottom: 10px;">

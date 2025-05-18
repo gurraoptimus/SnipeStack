@@ -134,7 +134,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <a href="javascript:history.back()" class="back-link">&larr; Back</a>
     </div>
      <footer style="text-align: center; margin-top: 40px; color: #666;">
-        <p>&copy; <?php echo date("Y"); ?> My PHP Website. All rights reserved.</p>
+        <p>&copy; <?php echo date("Y"); ?> Gurraoptimus Development. All rights reserved.</p>
     </footer>
 </body>
 </html>
