@@ -86,27 +86,49 @@
     echo "<p>This is a simple PHP-powered web page.</p>";
 
     // Display current date and time
-    echo "<p>Current date and time: " . date("Y-m-d H:i:s") . "</p>";
+    echo '<p>Current date and time: <span id="live-time">' . date("Y-m-d H:i:s") . '</span></p>';
+    ?>
+    <script>
+    function updateTime() {
+        const now = new Date();
+        const pad = n => n.toString().padStart(2, '0');
+        const formatted = now.getFullYear() + '-' +
+            pad(now.getMonth() + 1) + '-' +
+            pad(now.getDate()) + ' ' +
+            pad(now.getHours()) + ':' +
+            pad(now.getMinutes()) + ':' +
+            pad(now.getSeconds());
+        document.getElementById('live-time').textContent = formatted;
+    }
+    setInterval(updateTime, 1000);
+    </script>
+    <?php
 
     // Example of a PHP variable
     $user = "Visitor";
     echo "<p>Hello, $user!</p>";
 
     // Add some fun: display a random joke
-    $jokes = [
-        "Why do programmers prefer dark mode? Because light attracts bugs!",
-        "Why did the PHP developer go broke? Because he used echo instead of print!",
-        "How many programmers does it take to change a light bulb? None, that's a hardware problem.",
-        "Why do Java developers wear glasses? Because they don't see sharp.",
-        "What do you call a group of 8 Hobbits? A Hobbyte."
-    ];
-    $randomJoke = $jokes[array_rand($jokes)];
-    echo "<div class='joke'>😂 $randomJoke</div>";
+    // Fetch a random programming joke from an external API
+    $joke = "Why do programmers prefer dark mode? Because light attracts bugs!"; // fallback
+    $emoji = "😂"; // fallback emoji
 
-    // Add a random emoji for extra fun
-    $emojis = ["🎉", "🚀", "😎", "🤖", "🌈", "🍕", "🐘"];
-    $randomEmoji = $emojis[array_rand($emojis)];
-    echo "<span class='emoji'>$randomEmoji</span>";
+    // Try to get a real joke from JokeAPI
+    $jokeApiUrl = "https://v2.jokeapi.dev/joke/Programming?type=single";
+    $response = @file_get_contents($jokeApiUrl);
+    if ($response !== false) {
+        $data = json_decode($response, true);
+        if (isset($data['joke'])) {
+            $joke = htmlspecialchars($data['joke']);
+        }
+    }
+
+    // Fun programmer-related emojis
+    $emojis = ["😂", "🤓", "💻", "🧑‍💻", "👨‍💻", "👩‍💻", "🖥️", "🐛", "🚀", "🤖", "😅"];
+    $emoji = $emojis[array_rand($emojis)];
+
+    echo "<div class='joke'>{$emoji} {$joke}</div>";
+    echo "<span class='emoji'>{$emoji}</span>";
     ?>
 
     <footer style="text-align: center; margin-top: 40px; color: #666; background: #222; padding: 30px 0 20px 0;">

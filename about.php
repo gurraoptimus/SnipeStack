@@ -64,7 +64,42 @@
         <p style="text-align: left;">Welcome to our website! We are dedicated to providing quality content and services to our users.</p>
         <p style="text-align: left; font-size: 1.2rem; color: #4a5568;">Your go-to place for all things fun and informative!</p>
         <p style="text-align: bottom;">Our mission is to deliver valuable information and a great user experience. Thank you for visiting our About page.</p>
-     <a href="javascript:history.back()" style="display:inline-block;margin:24px 0 0 32px;color:#2a4365;text-decoration:none;font-weight:500;font-size:1rem;">
+    <?php
+    // Simple live visitor counter using a file
+    $counterFile = __DIR__ . '/visitors.txt';
+
+    // Get current IP
+    $ip = $_SERVER['REMOTE_ADDR'];
+
+    // Read existing data
+    $visitors = [];
+    if (file_exists($counterFile)) {
+        $visitors = json_decode(file_get_contents($counterFile), true);
+        if (!is_array($visitors)) $visitors = [];
+    }
+
+    // Remove IPs older than 15 minutes
+    $now = time();
+    foreach ($visitors as $visitorIp => $lastVisit) {
+        if ($now - $lastVisit > 900) { // 900 seconds = 15 minutes
+            unset($visitors[$visitorIp]);
+        }
+    }
+
+    // Update current visitor
+    $visitors[$ip] = $now;
+
+    // Save updated data
+    file_put_contents($counterFile, json_encode($visitors));
+
+    // Count live visitors
+    $liveVisitors = count($visitors);
+    ?>
+    <div style="margin: 24px 0; color: #2a4365; font-size: 1.1rem;">
+        <i class="fas fa-user-friends"></i>
+        Live visitors: <strong><?php echo $liveVisitors; ?></strong>
+    </div>
+        <a href="javascript:history.back()" style="display:inline-block;margin:24px 0 0 32px;color:#2a4365;text-decoration:none;font-weight:500;font-size:1rem;">
         &larr; Back
     </a>
     </div>
