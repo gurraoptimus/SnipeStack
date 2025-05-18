@@ -1,6 +1,6 @@
 # SnipeStack 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/gurraoptimus/SnipeStack/gh-page/assets/icon.png" alt="SnipeStack Logo" width="120" />
+    <img src="https://raw.githubusercontent.com/gurraoptimus/SnipeStack/gh-page/assets/icon.ico" alt="SnipeStack Logo" width="120" />
 </p>
 
 Welcome to **SnipStack** — a modern, lightweight PHP-powered toolkit that serves two purposes:
