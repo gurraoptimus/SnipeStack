@@ -1,1 +1,6 @@
-theme: SnipeStack
+theme: "my_custom_theme"
+author: "gurraoptimus"
+author_url: "https://gurraoptimus.se"
+name: "SnipeStack"
+theme_variant: dark
+description: "A dark theme for developers, optimized for coding and readability."
