@@ -12,9 +12,12 @@ Features:
 - Easily customizable for personal or professional use
 
 Folder Structure:
-- index.php          -> Homepage
-- about.php          -> About page
-- contact.php        -> Contact form page
+- index              -> Homepage
+- about              -> About page
+- contact            -> Contact form page
+- static             -> static files
+- template           -> template file
+- README             -> Project documentation
 
 Usage:
 1. Clone or download the repository.

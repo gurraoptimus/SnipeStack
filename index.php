@@ -11,7 +11,7 @@
     <meta name="theme-color" content="#333">
     <link rel="icon" href="https://raw.githubusercontent.com/gurraoptimus/SnipeStack/gh-page/assets/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>SnipStack</title>
+    <title>SnipeStack</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -77,11 +77,11 @@
         <a href=\"\">Home</a> |
         <a href=\"about.php\">About</a> |
         <a href=\"contact.php\">Contact</a> |
-        <a href=\"services.php\">Services</a> |
-        <a href=\"donate.php\">Donate</a> |
-        <a href=\"login.php\">Login</a> |
-        <a href=\"register.php\">Register</a> |
-        link to <a href=\"https://www.gurraoptimus.se\" target=\"_blank\">Gurraoptimus Development</a>
+        <a href=\"/static/services.php\">Services</a> |
+        <a href=\"/static/donate.php\">Donate</a> |
+        <a href=\"/static/login.php\">Login</a> |
+        <a href=\"/static/signup.php\">SignUp</a> |
+        <a href=\"http://localhost\">&lt;-back</a>
     </nav>";
     echo "<p>This is a simple PHP-powered web page.</p>";
 
@@ -138,24 +138,24 @@
             <p style="margin-bottom: 10px;">Disclaimer: This is a demo website. All content is fictional.</p>
             <p style="margin-bottom: 10px;">
             Follow us on 
-            <a href="https://twitter.com" target="_blank" style="color: #ffd700; text-decoration: none; margin: 0 6px;">Twitter</a> | 
-            <a href="https://facebook.com" target="_blank" style="color: #ffd700; text-decoration: none; margin: 0 6px;">Facebook</a>
+            <a href="https://x.com/gurraoptimus" target="_blank" style="color: #ffd700; text-decoration: none; margin: 0 6px;">X</a> | 
+            <a href="https://facebook.com/" target="_blank" style="color: #ffd700; text-decoration: none; margin: 0 6px;">Facebook</a>
         </p>
-            <a href="faq.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">FAQ</a> |
-            <a href="privacy.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Privacy Policy</a> |
-            <a href="terms.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Terms of Service</a> |
-            <a href="feedback.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Feedback</a> |
-            <a href="support.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Support</a> |
-            <a href="careers.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Careers</a> |
-            <a href="news.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">News</a> |
-            <a href="events.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Events</a> |
-            <a href="tutorials.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Tutorials</a> |
-            <a href="partners.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Partners</a> |
-            <a href="community.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Community</a> |
-            <a href="resources.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Resources</a> |
-            <a href="blog.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Blog</a> |
-            <a href="newsletters.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Newsletters</a> |
-            <a href="sponsorship.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Sponsorship</a>
+            <a href="/template/faq.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">FAQ</a> |
+            <a href="/template/privacy.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Privacy Policy</a> |
+            <a href="/template/terms.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Terms of Service</a> |
+            <a href="/template/feedback.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Feedback</a> |
+            <a href="/template/support.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Support</a> |
+            <a href="/template/careers.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Careers</a> |
+            <a href="/template/news.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">News</a> |
+            <a href="/template/events.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Events</a> |
+            <a href="/template/tutorials.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Tutorials</a> |
+            <a href="/template/partners.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Partners</a> |
+            <a href="/template/community.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Community</a> |
+            <a href="/template/resources.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Resources</a> |
+            <a href="/template/blog.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Blog</a> |
+            <a href="/template/newsletters.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Newsletters</a> |
+            <a href="/template/sponsorship.php" style="color: #ffd700; text-decoration: none; margin: 0 10px;">Sponsorship</a>
         </div>
     </footer>
 </body>
